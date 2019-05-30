@@ -1,0 +1,381 @@
+.header{
+	background-image: url("../img/header-back2.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 120%;
+	height: 150%;
+
+	position: absolute;
+	left: 0%;
+	top:20px;
+}
+
+.my_navbar{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	z-index: 100;
+	background-color: #ffc107;
+	position: fixed;
+	width: 100%;
+	margin-top: -80px; 
+	opacity: 100%;
+	height: 50px;
+}
+.my_navbar2{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	z-index: 100;
+	background-color: #ffc107;
+	position: fixed;
+	width: 100%;
+	margin-top: -3px; 
+	opacity: 100%;
+	height: 50px;
+}
+
+.my_navbar li{
+	list-style-type: none;
+	text-decoration: none;
+	
+}
+.my_navbar li a{
+	 text-decoration: none;
+	 color:#000;
+}
+.my_navbar li:hover{
+	color:#000!important;
+	background-color: #fff;
+}
+
+
+.my_navbar2 li{
+	list-style-type: none;
+	text-decoration: none;
+	
+}
+.my_navbar2 li a{
+	 text-decoration: none;
+	 color:#000;
+}
+.my_navbar2 li:hover{
+	color:#000!important;
+	background-color: #fff;
+}
+
+
+.header-contain{
+	margin: 5% 33%;
+	border: 5px solid #ffc107;
+	padding: 1.5%;
+	position: relative;
+	z-index: 10;
+}
+.header-article{
+	color: #fff;
+}
+
+.header-about{
+	background-color: #fff;
+	opacity: 0.65;
+	border: 10px solid #ffc107;
+	padding: 1.5%;
+}
+
+.header-kafedra{
+	width: 33%;
+	margin-left: 7%;
+	margin-top: 3%;
+
+}
+
+.header-history{
+	width: 33%;
+	margin-left: 60%;
+	margin-top: -10%;
+}
+.header-students{
+	width: 33%;
+	margin-left: 15%;
+	margin-top: -5%;
+}
+
+/*****************************************************************************************/
+
+.con-item{
+	margin-top: 30%;
+	margin-bottom: 120px;
+}
+.con-item img{
+	float: left ;
+	margin-right: 20px;
+}
+.con-item h3{
+	margin-top: 20px;
+
+}
+
+/*****************************************************************************************/
+
+.teachers{
+	background-image: url("../img/nauka2.jpg");\
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.teacher-item{
+	width: 	200px;
+	height: 200px;
+	border:3px #ffc107 solid;
+	text-align: center;	
+	transition: 1s ease-out !important;
+	margin: 5%;
+}
+.teacher-item-1{
+
+	background-image: url("../img/shpack.png");
+}
+
+.teacher-item-2{
+	background-image: url("../img/batuk.png	");
+	background-size: cover;
+}
+
+.teacher-item-3{
+
+	background-image: url("../img/sidorenko.png");
+	background-size: cover;
+}
+
+.teacher-item-4{
+	background-image: url("../img/demidov.png");
+	background-size: cover;
+}
+
+.teacher-item-5{
+
+	background-image: url("../img/tsumbal.png");
+	background-size: cover;
+}
+
+.teacher-item-6{
+	background-image: url("../img/tsmots.png	");
+	background-size: cover;
+}
+
+.teacher-item-7{
+
+	background-image: url("../img/pawluk.png");
+	background-size: cover;
+}
+
+.teacher-item-8{
+	background-image: url("../img/balych.png");
+	background-size: cover;
+}
+
+.teacher-item-9{
+
+	background-image: url("../img/fabry.png");
+	background-size: cover;
+}
+
+.teacher-item-10{
+	background-image: url("../img/obelovska.png");
+	background-size: cover;
+}
+
+.teacher-item-11{
+
+	background-image: url("../img/zerbino.png");
+	background-size: cover;
+}
+
+.teacher-item-12{
+	background-image: url("../img/skorokhoda.png");
+	background-size: cover;
+}
+
+
+.teacher-item:hover .btn{
+	opacity: 1 !important;	
+}
+
+/*****************************************************************************************/
+
+.modal-body img{
+	float: left;	
+	margin-right: 25px;
+	margin-bottom: 	15px;
+}
+
+.btn{
+	margin-top: 150px;
+   border-radius: 1rem !important;
+	color: #fff !important;
+		opacity: 0 !important;
+
+
+  }
+
+.btn:hover{
+		color:#ffc107 !important;
+		background-color: #fff !important;
+}
+
+
+/*****************************************************************************************/
+.work{
+	margin-top: 100px;
+	margin-bottom: 	80px;
+}
+
+.work-item {
+	border: 3px solid #ffc107;
+	text-align: center;
+		padding: 10px;
+}
+.work-item img{
+	width: 170px;
+	margin-top: 10px;
+}
+
+.work-item p{
+	font-size: 12px;
+	margin-top: 10px;
+	margin-left: 
+}
+.work-item-active img{
+	width: 400px;
+	margin-bottom: 40px;
+}
+
+
+.teachers{
+	padding-top: 100px; 
+}
+
+.sect{
+	font-size: 18px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+/********************************************************************************************************
+*											FOOTER														*
+*********************************************************************************************************/
+footer{
+	background-color: #000;
+	width: 100%;
+	color: #fff;
+
+}
+
+
+
+.backToTop{
+	background-color: #fff;
+	width: 50px;
+	height: 50px;
+	border-radius: 50% ;
+	background: url("../img/totop.png") center no-repeat;
+	background-size: cover;
+	float: left;
+	margin-left: 50%;
+}
+
+.f-text{
+	margin-left: 30%
+}
+
+.f-content{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding: 2% 8%;
+}
+
+.info-section{
+	text-align: center;
+	margin: 5%;
+	display: grid;
+	grid-template-columns: 1fr	1fr 1fr;
+}
+.stud-item{
+	border:1px solid #ffc107;
+	padding: 10%;
+}
+
+.stud-item:hover img{
+	transform: scale(1.3);
+}
+
+.stud-item:hover{
+	background-color: rgba(255, 193, 7, 0.23);
+
+}
+
+
+.work{
+	padding-top: 200px;
+}
+
+.stud-title{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+
+/*****************************************************************************************/
+/* tablet */
+@media screen and (min-width: 1024px) and (max-width: 1240px)  {
+	.header-contain{
+		width: 35%;
+		font-size: 13px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.header-article{
+		width: 36%;
+		font-size: 14px;
+	}
+}
+
+
+/* mobile */
+@media screen and (max-width: 368px) {
+	.header-contain{
+		font-size: 10px;	
+		text-align: center;
+		margin: 5% 20%;
+	} 
+	.header-kafedra {
+		margin-left: 15%;
+		margin-top: 5%;
+	}
+	.header-history {
+		margin-left: 15%;
+		margin-top: 5%;
+	}
+
+	.header-students {
+		margin-left: 15%;
+		margin-top: 5%;
+	}
+}
+
+
+
